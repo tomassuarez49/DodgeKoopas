@@ -574,7 +574,7 @@ window.onload = () => {
     generateRoomCode();
 
     // Inicializamos el WebSocket primero
-    socket = new WebSocket("ws://192.168.56.1:8081/chat");
+    socket = new WebSocket("wss://koopa-docker-g5azadcgbpgxdqg3.eastus-01.azurewebsites.net");
 
      socket.onopen = () => {
         console.log("Conectado al servidor WebSocket");
